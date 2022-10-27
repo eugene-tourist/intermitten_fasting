@@ -1,0 +1,133 @@
+/* &display=swap&subset=cyrillic-ext */
+/* &subset=cyrillic-ext */
+
+@import url("https://fonts.googleapis.com/css?family=Fasthand:regular");
+
+@font-face {
+    font-family: 'FuturaFuturisC';
+    src: url('../fonts/FuturaFuturisC-Italic.woff2') format('woff2'),
+        url('../fonts/FuturaFuturisC-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Proxima Nova Rg';
+    src: url('../fonts/ProximaNova-Bold.woff2') format('woff2'),
+        url('../fonts/ProximaNova-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+
+/* Обнуление стилей */
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a,
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: inherit;
+    font-size: inherit;
+}
+
+img {
+    vertical-align: top;
+}
+html{
+}
+body{
+}
+/* ------------------------- */
+.image img{
+    width: 1000px;
+}
+.container{
+    margin: auto;
+    max-width: 1000px;
+}
+.title {
+    font-family: "Fasthand", cursive;
+    font-size: 40px;
+    text-align: center;
+    color: blue;
+}
+.i{
+   color: darkcyan; 
+   font-size: 50px;
+}
+.title-text{
+    font-family: 'FuturaFuturisC';
+    font-size: 24px;
+    text-align: center;
+    line-height: 30px;
+}
+.sub-title {
+    font-family: 'Proxima Nova Rg';
+    font-size: 36px;
+    color:coral;
+    text-shadow: 3px 3px 5px cornflowerblue ;
+}
+p{
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.text-1 {
+    color: brown;
+    text-shadow: 2px 5px 15px tan;
+}
+
+.text-2 {
+    color: violet;
+}
+
+.text-3 {
+    color: chartreuse;
+}
+
+.text-4 {
+    color: blueviolet;
+}
+
+.text-5 {
+    color: crimson;
+}
+
+
+
+
+
+
+
+
+
+
+
+
